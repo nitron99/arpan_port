@@ -1,51 +1,124 @@
 /* 
-    background color - rgb(255, 223, 118)
-    black color - 
+    background color - #DEC07F(dull color)
+    my yellow color - rgb(255, 223, 118)
+    black color - #13191E
 */
 
 .home{
     background: rgb(255, 223, 118);
-    width: 100vw;
-    height :100vh;
+    width: 100%;
+    height :100%;
     display: flex;
-     
-    
     align-items: center;
     justify-content: center;
-
-    overflow: hidden;
-    
 }
 
 .card{
-    background-color: rgb(36, 36, 36);
+    background-color: #13191E;
     color: white;
-    border-radius: 50px;
+    border-radius: 60px;
     padding:25px 40px;
     width: 80%;
-    height: 80%;
+    height: 2000px;
+
+    position: relative;
+
+    margin-top: 70px;
+    margin-bottom: 70px;
 
     min-width: 800px;
     min-height: 720px;
+
+    box-shadow: 0 0 50px rgb(46, 46, 46);
 
 
 }
 
 .background-Hello{
-    font-size:12vw;
+    position: relative;
+    
+    bottom: 90px;
+    font-size:300px;
     color: rgb(59, 59, 59);
+    text-align: right;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
 .content{
-    position: absolute;
-    right:25vw;
+    position: relative;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: 80px;
+    bottom:120px;
+
+    font-family: 'Roboto', sans-serif;
+  
 }
+
+.contacts{
+    display:flex;
+    column-gap: 100px;
+    margin-top: 80px;
+    
+    position: relative;
+    left:300px;
+
+    max-width: max-content;
+    
+}
+
+
 .main_title{
-    font-size:3vw;
+    font-size:100px;
+    font-family: 'Chakra Petch', sans-serif;
+    
 }
 
 em{
     color: rgb(255, 223, 118);
     font-style: normal;
+}
+
+
+.project-title{
+    position: relative;
+    
+    bottom: 120px;
+    font-size:200px;
+    color: rgb(59, 59, 59);
+    text-align: left;
+
+    max-width: min-content;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.contactme-title{
+    position: relative;
+    
+    bottom: 120px;
+    font-size:150px;
+    color: rgb(59, 59, 59);
+    text-align: left;
+
+    max-width:none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

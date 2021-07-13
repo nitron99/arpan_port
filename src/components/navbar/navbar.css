@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+   
+    
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.navlist{
+    margin-left: auto;
+    margin-right: 50px;
+    display:flex;
+    list-style: none;
+    justify-content: end; 
+    color: #c1c1c1;
+    z-index: 2;
+}
+ .navlistitems{
+    padding: 0.45rem 2rem;
+ }
+
+ .navlistitems:hover{
+    background-color: #b7b7b7;
+     color: #13191E ;
+     border-radius: 10px;
+     transition: all 0.2s ease-out;
+ }

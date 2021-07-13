@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
+  
+    background-color: rgb(255, 223, 118);
+    
+    position:absolute; 
+    
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+ 
+    padding-right: 80px;
+    padding-left: 80px;
+
+    border-radius: 0 0 57px 57px;
+
+    color :#13191E;
+}
+
+.credits{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footerlist{
+    list-style: none;
+    margin-left: auto;
+    
+    display:flex;
+    column-gap: 50px;
+  
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}

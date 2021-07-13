@@ -3,3 +3,21 @@
     padding:0;
     box-sizing: border-box;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(255, 223, 118);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  #13191E; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(56, 58, 57)
+  }
+  
