@@ -12,8 +12,8 @@
     bottom: 0px;
     width: 100%;
  
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
 
     border-radius: 0 0 57px 57px;
 
@@ -30,7 +30,7 @@
     margin-left: auto;
     
     display:flex;
-    column-gap: 50px;
+    column-gap: 40px;
   
 }
 
@@ -38,3 +38,4 @@ img{
     width: 40px;
     height: 40px;
 }
+

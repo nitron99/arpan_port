@@ -18,11 +18,12 @@
     color: white;
     border-radius: 60px;
     padding:25px 40px;
-    width: 80%;
+    width:1600px;
     height: 2000px;
 
     position: relative;
 
+    margin:auto;
     margin-top: 70px;
     margin-bottom: 70px;
 
@@ -38,7 +39,7 @@
     position: relative;
     
     bottom: 90px;
-    font-size:300px;
+    font-size:320px;
     color: rgb(59, 59, 59);
     text-align: right;
     -webkit-touch-callout: none;
@@ -83,8 +84,20 @@
 em{
     color: rgb(255, 223, 118);
     font-style: normal;
+
 }
 
+a:link{
+    text-decoration: none;
+    color: rgb(255, 223, 118);
+}
+
+#mobiles:hover{
+    background-color: white;
+    color: #13191E ;
+    border-radius: 5px;
+     transition: all 0.15s ease-out;
+}
 
 .project-title{
     position: relative;
