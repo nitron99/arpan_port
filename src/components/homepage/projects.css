@@ -74,6 +74,7 @@
     height: max-content;
     width: max-content;
     margin-right: 80px;
+    border-radius: 30px;
  }
 
 .project1img{
@@ -94,6 +95,7 @@
 
  #p1img1, #p1img2{
     margin-top: 80px;
+    border-radius: 30px;
  }
 
  #p1img1{

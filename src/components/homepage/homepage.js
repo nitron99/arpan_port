@@ -31,7 +31,7 @@ class homepage extends Component {
 
                             <div className="contacts">
                                 <div className="email">
-                                    Email<br/><em>dasarpan471@gmail.com</em>
+                                    Email<br/><em><a href = "mailto:dasarpan471@gmail.com" id="mobiles"> dasarpan471@gmail.com</a></em>
                                 </div>
 
                                 <div className="mobile">
@@ -101,12 +101,10 @@ class homepage extends Component {
                             <div className="contactme-text">
                                 Let's get in touch <em>Today.</em>
 
-                                <input className="input" type="text" placeholder="Email...">
-                                    
-                                </input>
+                              
 
-                                <Sendbtn className="send_btn" />
-
+                                
+                                <a href = "mailto:dasarpan471@gmail.com">  <div className="mailme">Email me</div></a>
 
                             </div>
                             <div className="worldmap">
@@ -123,7 +121,7 @@ class homepage extends Component {
                 </div>
 
                 <div className="error_msg" >
-                        Use a Device with a bigger display in order to see this Website.
+                        Use a Device with a Bigger display..
 
                     </div>
             </div>
