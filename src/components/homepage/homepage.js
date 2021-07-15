@@ -119,7 +119,13 @@ class homepage extends Component {
                     </div>
                     <Footer />
 
+                    
                 </div>
+
+                <div className="error_msg" >
+                        Use a Device with a bigger display in order to see this Website.
+
+                    </div>
             </div>
 
         );

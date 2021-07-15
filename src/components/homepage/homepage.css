@@ -11,7 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    
+    
 }
 
 .card{
@@ -22,7 +23,7 @@
     width:1600px;
     height: 3700px;
 
-    
+   
 
     position: relative;
 
@@ -210,3 +211,31 @@ input::placeholder{
     margin-left: 50px;
     height: 100%;
 }
+
+.error_msg{
+    position:  fixed;
+    left:50%;
+    visibility: hidden;
+    top : 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+
+@media only screen and (max-width: 1357px) {
+   .card {
+      visibility: hidden;
+    }
+    
+    .error_msg{
+        
+        visibility: visible;
+        
+    }
+
+    *{
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+  }
