@@ -1,7 +1,7 @@
 .project-box{
     margin-top: 300px;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     
 }
 
@@ -34,8 +34,8 @@
 
 .project1-content{
     font-family: 'Roboto', sans-serif;
-    width:40%;
-
+    width:550px;
+    min-width:550px;
     
 }
 
@@ -63,7 +63,48 @@
  
  .project2-content{
      font-family: 'Roboto', sans-serif;
-     width:40%;
+     width:550px;
+     min-width:550px;
  
      
  }
+
+ .p2img{
+    margin-top: 100px;
+    height: max-content;
+    width: max-content;
+    margin-right: 80px;
+ }
+
+.project1img{
+    width:100%;
+    height: 920px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.project2img{
+    width:100%;
+    height:620px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+ #p1img1, #p1img2{
+    margin-top: 80px;
+ }
+
+ #p1img1{
+     height: 800px;
+     width: 480px;
+     margin-right: 80px;
+     
+ }
+
+ #p1img2{
+    height: 800px;
+    width: 480px;
+    
+}

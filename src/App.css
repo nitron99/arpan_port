@@ -8,6 +8,7 @@
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
+    height: 7px;
     background-color: rgb(255, 223, 118);
   }
   
@@ -15,9 +16,25 @@
   ::-webkit-scrollbar-thumb {
     background:  #13191E; 
   }
+
+
+  ::-webkit-scrollbar:horizontal{
+    background: #13191E ;
+
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: rgb(117, 117, 117) ;
+    border-radius: 10px;
+
+  }
+
+
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(56, 58, 57)
   }
+
+
+  
   

@@ -5,6 +5,9 @@ import './projects.css';
 import {ReactComponent as Worldmap} from './worldmap.svg';
 import {ReactComponent as Arpanpic} from './arpan_pic.svg';
 import {ReactComponent as Sendbtn} from './send_white_48dp.svg';
+import p2img from './projectPhotos/p2_1.jpeg';
+import p1img1 from './projectPhotos/p1_1.jpeg';
+import p1img2 from './projectPhotos/p1_2.jpeg';
 
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
@@ -56,7 +59,8 @@ class homepage extends Component {
 
                             </div>
                             <div className="project1img">
-                                    
+                                <img src={p1img1} alt="" id="p1img1"  />
+                                <img src={p1img2} alt="" id="p1img2"  />
 
 
 
@@ -81,8 +85,8 @@ class homepage extends Component {
 
                                 </div>
                                 <div className="project2img">
-                                        
-
+                                        <img src={p2img} alt="" className="p2img"  />
+                                        <img src={p2img} alt="" className="p2img"  />
 
 
                                 </div>
