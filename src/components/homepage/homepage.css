@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 .card{
@@ -19,7 +20,9 @@
     border-radius: 60px;
     padding:25px 40px;
     width:1600px;
-    height: 2000px;
+    height: 3200px;
+
+    
 
     position: relative;
 
@@ -35,12 +38,24 @@
 
 }
 
-.background-Hello{
+.arpan-pic{
     position: relative;
-    
-    bottom: 90px;
+    z-index: 5;
+    min-width: 35%;
+}
+
+.frontdetail{
+    display:flex;
+}
+
+.background-Hello{
+    position: absolute;
+    max-width: min-content;
+    top:0;
+    right:20px;
     font-size:320px;
     color: rgb(59, 59, 59);
+    
     text-align: right;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -52,11 +67,15 @@
 
 
 .content{
-    position: relative;
-    max-width: max-content;
+    
+    position: absolute;
+    max-width:810px;
+    margin-top:400px;
+    top:0;
+    right:0px;
     margin-left: auto;
     margin-right: 80px;
-    bottom:120px;
+    
 
     font-family: 'Roboto', sans-serif;
   
@@ -102,7 +121,7 @@ a:link{
 .project-title{
     position: relative;
     
-    bottom: 120px;
+    bottom: 30px;
     font-size:200px;
     color: rgb(59, 59, 59);
     text-align: left;
@@ -118,15 +137,27 @@ a:link{
 }
 
 
+
+.contactme-box{
+    width: 100%;
+    height: 600px;
+    max-width: max-content;
+    position: absolute;
+    
+    bottom: 200px;
+    
+}
+
+
 .contactme-title{
     position: relative;
-    
-    bottom: 120px;
+
+    max-width: max-content;
     font-size:150px;
     color: rgb(59, 59, 59);
     text-align: left;
 
-    max-width:none;
+    
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -134,4 +165,48 @@ a:link{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.contactme-content{
+    display:flex;
+    max-width:1000px;
+}
+
+.contactme-text{
+    width:35%;
+    font-size: 75px;
+    padding-top: 30px;
+    min-width: 450px;
+    
+}
+
+input{
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    border:none;
+    padding:20px;
+    background-color: #f2f2f2;
+    outline:none;
+    font-size: 20px;
+}
+
+input:focus::placeholder{
+    color:transparent;
+}
+
+input::placeholder{
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+.send_btn{
+   
+    margin-left: 40px;
+    
+}
+
+.worldmap{
+    margin-left: 50px;
+    height: 100%;
 }
