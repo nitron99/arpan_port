@@ -4,7 +4,7 @@ import './projects.css';
 
 import {ReactComponent as Worldmap} from './worldmap.svg';
 import {ReactComponent as Arpanpic} from './arpan_pic.svg';
-import {ReactComponent as Sendbtn} from './send_white_48dp.svg';
+
 import p2img from './projectPhotos/p2_1.jpeg';
 import p1img1 from './projectPhotos/p1_1.jpeg';
 import p1img2 from './projectPhotos/p1_2.jpeg';
